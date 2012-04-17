@@ -8,7 +8,7 @@
 	fetch="git://github.com/CyanogenMod/" />
 
   <remote name="sourcery"
-       	fetch="git://github.com/teamsourcery/" />
+       	fetch="git://github.com/TeamSourcery/" />
       	 
   <default revision="refs/tags/android-4.0.4_r1.1"
        	remote="aosp"
