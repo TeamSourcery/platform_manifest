@@ -37,7 +37,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="sourcery" revision="ics" />
+  <project path="external/bash" name="android_external_bash" remote="sourcery" revision="master" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="sourcery" revision="master" />
@@ -46,7 +46,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="sourcery" revision="ics"/>
+  <project path="external/busybox" name="android_external_busybox" remote="sourcery" revision="master"/>
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
@@ -91,7 +91,7 @@
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="sourcery" revision="ics" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="sourcery" revision="master" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -116,7 +116,7 @@
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="sourcery" revision="ics" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="sourcery" revision="master" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -155,7 +155,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="sourcery" revision="ics" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="sourcery" revision="master" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
@@ -185,7 +185,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="sourcery" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sourcery" revision="ics" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sourcery" revision="master" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -210,16 +210,16 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="sourcery" revision="ics" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="sourcery" revision="master" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="sourcery" revision="master" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="sourcery" revision="ics" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="sourcery" revision="master" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sourcery" revision="ics" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sourcery" revision="master" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
