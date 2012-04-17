@@ -243,7 +243,7 @@
   <project path="vendor/sourcery" name="vendor_sourcery" remote="sourcery" revision="master" />
  
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
-  <project path="system/su" name="system_su" remote="sourcery" revision="master" />
+  <project path="system/su" name="su-binary" remote="sourcery" revision="master" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="ics" />
