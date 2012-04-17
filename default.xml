@@ -104,7 +104,7 @@
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mesa3d" name="external_mesa3d" remote="sourcery" revision="master" />
+  <project path="external/mesa3d" name="external_mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />
@@ -127,7 +127,7 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="android_external_skia" />
+  <project path="external/skia" name="android_external_skia" remote="sourcery" revision="ics" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
