@@ -127,7 +127,7 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="android_external_skia" remote="sourcery" revision="master" />
+  <project path="external/skia" name="android_external_skia" revision="master" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -185,7 +185,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="sourcery" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="ics" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sourcery" revision="ics" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -230,7 +230,6 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="packages/wallpapers/sourceryBeam" name="packages_wallpapers_sourceryBeam" remote="sourcery" revision="master" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -242,16 +241,11 @@
  
   <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="master" />
   <project path="vendor/sourcery" name="vendor_sourcery" remote="sourcery" revision="master" />
-  <project path="vendor/sourcery/bot" name="pseudo_buildbot" remote="sourcery" revision="master" />
  
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="system_su" remote="sourcery" revision="master" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
-  <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="sourcery" revision="master" />
-  <project path="packages/apps/sourceryPapers" name="packages_apps_sourceryPapers" remote="sourcery" revision="master" />
-  <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="sourcery" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="ics" />
-  <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="sourcery" revision="ics" /> -->
 
 </manifest>
