@@ -240,7 +240,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
  
   <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="master" />
-  <project path="vendor/sourcery" name="vendor_sourcery" remote="sourcery" revision="master" />
+  <project path="vendor/sourcery" name="vendor_Sourcery" remote="sourcery" revision="master" />
  
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="su-binary" remote="sourcery" revision="master" />
