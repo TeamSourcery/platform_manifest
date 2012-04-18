@@ -32,6 +32,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="sourcery" revision="master" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="sourcery" revision="master" />
+  <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
