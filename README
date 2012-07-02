@@ -1,3 +1,3 @@
-NOTE: Currently broken due to linaro.  fixing framework currently to get build working again *devortex*
+NOTE: linaro work reverted.  If you want to attempt to build linaro use -b linaro instead when issuing the repo init command
 $ repo init -u https://github.com/teamsourcery/platform_manifest.git -b master
 $ repo sync
