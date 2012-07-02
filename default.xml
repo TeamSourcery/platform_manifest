@@ -14,7 +14,7 @@
        	remote="aosp"
        	sync-j="4" />
 
-  <project path="build" name="android_build" revision="ics" remote="sourcery">
+  <project path="build" name="android_build" revision="linaro" remote="sourcery">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -31,7 +31,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="sourcery" revision="master" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="sourcery" revision="master" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="sourcery" revision="linaro" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -42,7 +42,7 @@
   <project path="external/bash" name="android_external_bash" remote="sourcery" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="sourcery" revision="master" />
+  <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="sourcery" revision="linaro" />
   <project path="external/bluetooth/glib" name="external_bluetooth_glib" remote="sourcery" revision="ics" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
@@ -154,7 +154,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="master" />
+  <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="linaro" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="sourcery" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="sourcery" revision="ics" />
@@ -215,7 +215,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="sourcery" revision="master" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="sourcery" revision="linaro" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -235,10 +235,10 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="prebuilt" name="platform_prebuilt" remote="sourcery" revision="ics" />
+  <project path="prebuilt" name="platform_prebuilt" remote="sourcery" revision="linaro" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="sourcery" revision="master" />
+  <project path="system/core" name="system_core" remote="sourcery" revision="linaro" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="ics" />
   <project path="system/media" name="system_media" remote="sourcery" revision="ics" />
   <project path="system/netd" name="platform/system/netd" />
