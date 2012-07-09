@@ -106,11 +106,11 @@
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mesa3d" name="external_mesa3d" remote="sourcery" revision="r2.1" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/nano" name="android_external_nano" remote="cm" revision="ics" />
+  <project path="external/nano" name="platform/external/nano" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -118,7 +118,7 @@
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="sourcery" revision="r2.1" />
+  <project path="external/oprofile" name="android_external_oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
