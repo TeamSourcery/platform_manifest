@@ -307,7 +307,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="su-binary" remote="sourcery" revision="master" />
+  <project path="system/su" name="su-binary" remote="sourcery" revision="jb" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/Sourcery" name="vendor_Sourcery" remote="sourcery" revision="jb" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="ics" />
