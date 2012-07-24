@@ -44,7 +44,7 @@
   <project path="external/bash" name="android_external_bash" remote="sourcery" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="sourcery" revision="jb" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="sourcery" revision="jellybean" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
@@ -219,7 +219,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="sourcery" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sourcery" revision="jb" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sourcery" revision="jellybean" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -302,7 +302,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="sourcery" revision="jb" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="sourcery" revision="jellybean" />
   <project path="system/core" name="system_core" remote="sourcery" revision="jb" />
   <project path="system/extras" name="android_system_extras" remote="sourcery" revision="jb" />
   <project path="system/media" name="platform/system/media" />
