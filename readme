@@ -1,3 +1,7 @@
-NOTE: linaro work reverted.  If you want to attempt to build linaro use -b linaro instead when issuing the repo init command
-$ repo init -u https://github.com/teamsourcery/platform_manifest.git -b master
+To pulldown and work with our repo, first follow the instructions by android source at: http://source.android.com/source/initializing.html
+to set up your machine
+Then follow the instruction here: http://source.android.com/source/downloading.html replacing the repo init command with:
+$ repo init -u https://github.com/teamsourcery/platform_manifest.git -b jb
 $ repo sync
+
+after the repo sync, do not attempt to follow the aosp guidlines anymore, you've been sourcerized!
