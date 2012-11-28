@@ -10,7 +10,7 @@
   <remote name="sourcery"
        	fetch="git://github.com/TeamSourcery/" />
       	 
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
        	remote="aosp"
        	sync-j="4" />
 
@@ -18,7 +18,7 @@
   Sourcery 4.2 has been successfully sync'd This is WIP
   </notice>
 
-  <project path="build" name="android_build" revision="jb" remote="sourcery">
+  <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -59,7 +59,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
+  <project path="external/busybox" name="android_external_busybox" remote="sourcery" revision="jb4.2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
