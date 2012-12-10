@@ -347,11 +347,12 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="mr1-staging" />
+  <project path="vendor/widevine" name="vendor_widevine" remote="sourcery" revision="master" />
+  <project path="vendor/dreams" name="vendor_dreams" remote="sourcery" revision="master" />
+  <project path="vendor/nxp" name="vendor_nxp" remote="sourcery" revision="master" />
+  <project path="vendor/invensense" name="vendor_invensense" remote="sourcery" revision="master" />
+  <project path="vendor/imgtec" name="vendor_imgtec" remote="sourcery" revision="master" />
+  <project path="vendor/broadcom" name="vendor_broadcom" remote="sourcery" revision="master" />
+
 </manifest>
 
-<project path="vendor/widevine" name="vendor_widevine" remote="sourcery" revision="master" />
-<project path="vendor/dreams" name="vendor_dreams" remote="sourcery" revision="master" />
-<project path="vendor/nxp" name="vendor_nxp" remote="sourcery" revision="master" />
-<project path="vendor/invensense" name="vendor_invensense" remote="sourcery" revision="master" />
-<project path="vendor/imgtec" name="vendor_imgtec" remote="sourcery" revision="master" />
-<project path="vendor/broadcom" name="vendor_broadcom" remote="sourcery" revision="master" />
