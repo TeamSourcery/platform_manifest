@@ -22,7 +22,7 @@
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="sourcery" revision="jb4.2" />
+  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -339,7 +339,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="system_vold" remote="sourcery" revision="jb4.2" />
+  <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="vendor/Sourcery" name="vendor_Sourcery" remote="sourcery" revision="jb4.2" />
   <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="jb4.2" />
