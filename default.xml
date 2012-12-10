@@ -15,19 +15,19 @@
        	sync-j="4" />
 
   <notice>
-  Sourcery 4.2 has been successfully sync'd This is WIP
+  Sourcery (V4.0)-4.2.1 has been successfully sync'd 
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
 	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="sourcery" revision="jb4.2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform_dalvik" remote="sourcery" revision="jb4.2" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -246,7 +246,7 @@
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="sourcery" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sourcery" revision="jb4.2" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="sourcery" revision="jb4.2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -335,11 +335,11 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="sourcery" revision="jb4.2" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="platform_system_extras" remote="sourcery" revision="jb4.2" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="system_vold" remote="sourcery" revision="jb-mr1" />
+  <project path="system/vold" name="system_vold" remote="sourcery" revision="jb4.2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="vendor/Sourcery" name="vendor_Sourcery" remote="sourcery" revision="jb4.2" />
   <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="jb4.2" />
