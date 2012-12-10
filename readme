@@ -6,7 +6,13 @@ $ repo sync
 
 after the repo sync, do not attempt to follow the aosp guidlines anymore, you've been sourcerized!
 
-For 4.2
+For 4.2 GSM/TORO
 
 $ repo init -u https://github.com/TeamSourcery/platform_manifest.git -b jb4.2
+$ repo sync
+
+
+For 4.2 TOROPLUS
+
+$ repo init -u https://github.com/TeamSourcery/platform_manifest.git -b jbplus
 $ repo sync
