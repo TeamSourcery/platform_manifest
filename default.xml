@@ -15,7 +15,7 @@
        	sync-j="4" />
 
   <notice>
-  Sourcery (V4.0)-4.2.1 has been successfully sync'd 
+  Sourcery (V4.2)-4.2.1 has been successfully sync'd 
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
