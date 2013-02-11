@@ -10,12 +10,12 @@
   <remote name="sourcery"
        	fetch="git://github.com/TeamSourcery/" />
       	 
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/tags/android-4.2.1_r1.2"
        	remote="aosp"
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.1 has been successfully sync'd 
+  Sourcery -4.2.1_r1.2 has been successfully sync'd 
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
@@ -119,7 +119,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
