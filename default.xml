@@ -15,7 +15,7 @@
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.1_r1.2 has been successfully sync'd 
+  Sourcery -4.2.2_r1 has been successfully sync'd--THIS IS BROKEN STILL
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
