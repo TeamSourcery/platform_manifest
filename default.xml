@@ -10,12 +10,12 @@
   <remote name="sourcery"
        	fetch="git://github.com/TeamSourcery/" />
       	 
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/tags/android-4.2.2_r1"
        	remote="aosp"
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.1 has been successfully sync'd 
+  Sourcery -4.2.2_r1 has been successfully sync'd--Will Build In Testing
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
@@ -27,7 +27,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="sourcery" revision="jb4.2" />
+  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -39,7 +39,6 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="sourcery" revision="jb4.2" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="sourcery" revision="jb4.2" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="sourcery" revision="master" />
-  <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -55,7 +54,7 @@
   <project path="external/bash" name="android_external_bash" remote="sourcery" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="sourcery" revision="jb4.2" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -203,7 +202,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="sourcery" revision="jb4.2" />
-  <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="jb4.2" />
+  <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="jb4.2.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -227,18 +226,18 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -269,7 +268,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sourcery" revision="jb4.2" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sourcery" revision="jb4.2"/>
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="sourcery" revision="jb4.2"/>
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="sourcery" revision="jb4.2.2"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -336,7 +335,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="sourcery" revision="jb4.2" />
-  <project path="system/extras" name="platform_system_extras" remote="sourcery" revision="jb4.2" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
