@@ -15,7 +15,7 @@
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.2_r1 has been successfully sync'd--Will Build In Testing
+  Sourcery -4.2.2_r1 has been successfully sync'd--
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
@@ -201,7 +201,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="sourcery" revision="jb4.2" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="sourcery" revision="jb4.2.2" />
   <project path="frameworks/base" name="frameworks_base" remote="sourcery" revision="jb4.2.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -211,7 +211,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
+   <project path="frameworks/native" name="frameworks_native" remote="sourcery" revision="master" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -342,9 +342,16 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="vendor/Sourcery" name="vendor_Sourcery" remote="sourcery" revision="jb4.2" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="jb4.2" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="jb4.2.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sourcery" revision="jb4.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/widevine" name="vendor_widevine" remote="sourcery" revision="master" />
+  <project path="vendor/dreams" name="vendor_dreams" remote="sourcery" revision="master" />
+  <project path="vendor/nxp" name="vendor_nxp" remote="sourcery" revision="master" />
+  <project path="vendor/invensense" name="vendor_invensense" remote="sourcery" revision="master" />
+  <project path="vendor/imgtec" name="vendor_imgtec" remote="sourcery" revision="master" />
+  <project path="vendor/broadcom" name="vendor_broadcom" remote="sourcery" revision="master" />
+
 </manifest>
