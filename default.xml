@@ -15,7 +15,7 @@
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.2_r1 has been successfully sync'd--
+  Sourcery -4.2.2_r1.2 has been successfully sync'd--
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
@@ -271,6 +271,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sourcery" revision="jb4.2" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sourcery" revision="jb4.2"/>
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="sourcery" revision="jb-mr1"/>
+  <project path="packages/apps/PermissionManager" name="android_packages_apps_PermissionsManager" remote="sourcery" revision="jellybean-mr1"/>
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="sourcery" revision="jb4.2.2"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
