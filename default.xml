@@ -9,13 +9,19 @@
 
   <remote name="sourcery"
        	fetch="git://github.com/TeamSourcery/" />
+
+  <remote name="github"
+	fetch="git://github.com/" />
+
+  <remote name="me"
+	fetch="git://github.com/jboyer0000/" />
       	 
   <default revision="refs/tags/android-4.2.2_r1.2"
        	remote="aosp"
        	sync-j="4" />
 
   <notice>
-  Sourcery -4.2.2_r1.2 V5.3 has been successfully sync'd--Would appreciate credit if you use our source. Other than that have at it!
+  Sourcery -4.2.2_r1.2 V5.4 Has been successfully synced.
   </notice>
 
   <project path="build" name="android_build" revision="jb4.2" remote="sourcery">
@@ -113,6 +119,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
@@ -347,10 +355,9 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="vendor/Sourcery" name="vendor_Sourcery" remote="sourcery" revision="jb4.2.2" />
   <project path="vendor/samsung" name="vendor_samsung" remote="sourcery" revision="jb4.2.2" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sourcery" revision="jb4.2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
- 
+  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="me" revision="jb-4.2" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="me" revision="jb-4.2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="me" revision="jb-4.2" />
+   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
 </manifest>
